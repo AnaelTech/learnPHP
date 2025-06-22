@@ -7,7 +7,7 @@
  *
  * @category Application
  * @package  App\Models
- * @author   AnaelTech <anael.tech@gmail.com>
+ * @author   AnaelTech <anaelpayetpro@gmail.com>
  * @license  https://opensource.org/licenses/MIT MIT License
  * @date     2023-06-22
  * @version  GIT: main
@@ -21,7 +21,7 @@ namespace App\Models;
  *
  * @category Application
  * @package  App\Models
- * @author   AnaelTech <anael.tech@gmail.com>
+ * @author   AnaelTech <anaelpayetpro@gmail.com>
  * @license  https://opensource.org/licenses/MIT MIT License
  * @date     2023-06-22
  * @link     https://github.com/anaeltech/learnPHP
