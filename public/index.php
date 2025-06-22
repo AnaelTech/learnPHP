@@ -16,3 +16,13 @@
  * @version  GIT: main
  * @link     https://github.com/anaeltech/learnPHP
  */
+
+use App\Database\Connection;
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+$connection = new Connection();
+
+$pdo = $connection->getPdo();
+
+echo 'Hello World!';

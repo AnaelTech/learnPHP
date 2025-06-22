@@ -2,7 +2,8 @@
 
 ## Description
 
-Projet pour réapprendre PHP, avec les designs pattern appris récemment, ainsi que l'application de bonne pratique en PHP
+Projet pour réapprendre PHP, avec les designs pattern appris récemment,
+ainsi que l'application de bonne pratique en PHP
 
 ## Installation
 
@@ -32,4 +33,4 @@ Ce projet est sous licence [MIT](LICENSE).
 
 ---
 
-_Généré avec le script GitHub Repository Creator_
+> Généré avec le script GitHub Repository Creator
