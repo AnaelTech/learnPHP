@@ -32,3 +32,10 @@ temp/
 .tmp/
 .cache/
 
+# Fichiers de configuration
+config/db.ini
+
+# Fichiers de cache
+cache/
+
+.php-cs-fixer.cache
