@@ -18,6 +18,7 @@
  */
 
 use App\Database\Connection;
+use Core\Router;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
@@ -25,4 +26,6 @@ $connection = new Connection();
 
 $pdo = $connection->getPdo();
 
-echo 'Hello World!';
+$uri = $_GET['uri'] ?? '/';
+$router = new Router();
+$router->dispatch($uri);

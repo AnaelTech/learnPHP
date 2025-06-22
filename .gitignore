@@ -38,6 +38,7 @@ config/db.ini
 # Fichiers de cache
 cache/
 .php-cs-fixer.cache
+.phpunit.result.cache
 
 # Fichiers de composer
 vendor/
