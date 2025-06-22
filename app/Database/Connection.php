@@ -21,6 +21,7 @@ namespace App\Database;
 
 use App\Config\Config;
 use PDO;
+use PDOStatement;
 
 /**
  * La classe Connection permet de se connecter à la base de données.
@@ -64,4 +65,21 @@ class Connection
     {
         return $this->_pdo;
     }
+
+    /**
+     * Méthode pour exécuter une requête SQL.
+     *
+     * @param string $sql    Requête SQL.
+     * @param array  $params Paramètres de la requête.
+     *
+     * @return PDOStatement
+     */
+    public function query(string $sql, array $params = []): PDOStatement
+    {
+        $statement = $this->_pdo->prepare($sql);
+        $statement->execute($params);
+
+        return $statement;
+    }
+
 }
