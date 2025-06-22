@@ -1,0 +1,25 @@
+{
+  "name": "anaeltech/learnphp",
+  "description": "Projet d'apprentissage PHP natif avec configuration propre",
+  "type": "project",
+  "authors": [
+    {
+      "name": "AnaelTech",
+      "email": "anaelpayetpro@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "scripts": {
+    "start": "php -S localhost:8000 -t public"
+  },
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

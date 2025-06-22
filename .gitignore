@@ -37,5 +37,8 @@ config/db.ini
 
 # Fichiers de cache
 cache/
-
 .php-cs-fixer.cache
+
+# Fichiers de composer
+vendor/
+.composer.lock
