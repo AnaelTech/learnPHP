@@ -33,7 +33,8 @@ temp/
 .cache/
 
 # Fichiers de configuration
-config/db.ini
+app/Config/db.ini
+
 
 # Fichiers de cache
 cache/
